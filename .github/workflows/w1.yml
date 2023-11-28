@@ -3,7 +3,7 @@ name: wget1
 on:
 
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 28 * *'
  
   workflow_dispatch: # on button click
 
