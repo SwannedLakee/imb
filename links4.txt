@@ -1,13 +1,3 @@
-https://imabi.org/the-particle-%e3%81%a9%e3%81%93%e3%82%8d/
-https://imabi.org/%e3%81%a8-combination-particles-i-%e3%81%a8%e3%81%aa%e3%81%8f-%e3%81%a8%e3%81%af/
-https://imabi.org/%e3%81%a8-combination-particles-ii/
-https://imabi.org/when-it-comes-to-i%e3%81%a8%e3%81%84%e3%81%86%e3%81%a8-%e3%81%a8%e3%81%84%e3%81%88%e3%81%b0-%e3%81%a8%e3%81%84%e3%81%a3%e3%81%9f%e3%82%89/
-https://imabi.org/when-it-comes-to-ii-when-it-comes-to-ii%e3%81%a8%e3%81%aa%e3%82%8b%e3%81%a8-%e3%81%a8%e3%81%aa%e3%81%a3%e3%81%9f%e3%82%89-%e3%81%a8%e3%81%aa%e3%82%8c%e3%81%b0/
-https://imabi.org/%ef%bd%9e%e3%81%a3%e3%81%9f%e3%82%89-%ef%bd%9e%e3%81%a3%e3%81%a6%e3%81%b0/
-https://imabi.org/whether-it-be-or-%ef%bd%9e%e3%81%a8%e3%81%84%e3%81%84-%ef%bd%9e%e3%81%a8%e3%81%84%e3%82%8f%e3%81%9a/
-https://imabi.org/when-it-comes-to-iii%e3%81%a8%ef%bd%9b%e3%81%8d%e3%81%9f%e3%82%89%e3%83%bb%e3%81%8d%e3%81%a6%e3%81%af%e3%83%bb%e3%81%8f%e3%82%8b%e3%81%a8%e3%83%bb%e3%81%8d%e3%81%9f%e6%97%a5%e3%81%ab/
-https://imabi.org/%e3%81%a8-combination-particles-iv/
-https://imabi.org/potential-iv/
 https://imabi.org/considering-%e3%82%8f%e3%82%8a%e3%81%ab%ef%bc%88%e3%81%af%ef%bc%89-%e3%81%ab%e3%81%97%e3%81%a6%e3%81%af/
 https://imabi.org/disregard-i/
 https://imabi.org/disregard-ii/
@@ -57,7 +47,8 @@ https://imabi.org/decimals-fractions/
 https://imabi.org/numbers-x-measurements/
 https://imabi.org/large-numbers-%e5%a4%a7%e5%ad%97/
 https://imabi.org/miss-out/
-https://imabi.org/more-endings-i/https://imabi.org/more-endings-ii/
+https://imabi.org/more-endings-i/
+https://imabi.org/more-endings-ii/
 https://imabi.org/locational/
 https://imabi.org/final-endings/
 https://imabi.org/the-volitional-iii/
@@ -99,4 +90,12 @@ https://imabi.org/idioms-iv-yojijukugo/
 https://imabi.org/idioms-v-kotowaza/
 https://imabi.org/dialectical-%e8%87%aa%e4%bb%96%e5%8b%95%e8%a9%9e/
 https://imabi.org/%e9%9f%b3%e8%a8%93-on-kun-readings/
+https://imabi.org/okurigana/
+https://imabi.org/yotsugana/
+https://imabi.org/hentaigana/
+https://imabi.org/%e5%90%8d%e4%b9%97%e3%82%8a%e8%a8%93/
+https://imabi.org/the-214-radicals/
+https://imabi.org/japanese-made-kanji-%e5%9b%bd%e5%ad%97/
+https://imabi.org/%e5%bd%93%e3%81%a6%e5%ad%97/
+https://imabi.org/kanji-simplification%e3%80%80%e6%bc%a2%e5%ad%97%e3%81%ae%e7%b0%a1%e7%95%a5%e5%8c%96/
 
