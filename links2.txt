@@ -1,8 +1,3 @@
-https://imabi.org/interrogatives-ii-the-question-how/
-https://imabi.org/interrogatives-iii-with-particles/
-https://imabi.org/the-particle-%e3%81%ae-ii/
-https://imabi.org/the-particle-%e3%81%a7-ii/
-https://imabi.org/pluralization/
 https://imabi.org/pluralization-ii-%ef%bd%9e%e3%81%9f%e3%81%a1/
 https://imabi.org/might-%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84/
 https://imabi.org/%ef%bd%9e%e3%81%a6%e3%81%82%e3%81%92%e3%82%8b-%ef%bd%9e%e3%81%a6%e3%81%8f%e3%82%8c%e3%82%8b-%ef%bd%9e%e3%81%a6%e3%82%82%e3%82%89%e3%81%86-2/
@@ -58,7 +53,6 @@ https://imabi.org/advanced-preparation-%ef%bd%9e%e3%81%a6%e3%81%8a%e3%81%8f/
 https://imabi.org/%ef%bd%9e%e3%81%9f%e3%82%81%e3%81%ab-i-in-order-to/
 https://imabi.org/due-to/
 https://imabi.org/so-that/
-https://www.imabi.net/inorderto.htm
 https://imabi.org/%ef%bd%9e%e3%81%a8%e3%81%8a%e3%82%8a%e3%81%ab/
 https://imabi.org/trying/
 https://imabi.org/try-ii/
@@ -75,9 +69,7 @@ https://imabi.org/the-imperative/
 https://imabi.org/direction-intransitives-%e3%82%92-%e5%90%91%e3%81%8f/
 https://imabi.org/fix-error-%ef%bd%9e%e5%bf%98%e3%82%8c%e3%82%8b-%ef%bd%9e%e7%9b%b4%e3%81%99-%e9%96%93%e9%81%95%e3%81%88%e3%82%8b-%ef%bd%9e%e8%aa%a4%e3%82%8b/
 https://imabi.org/used-to-together/
-https://www.imabi.net/usedtotogether.htm
 https://imabi.org/adverbs-iii/
-https://www.imabi.net/adverbsiii.htm
 https://imabi.org/onomatopoeia-%e6%93%ac%e5%a3%b0%e8%aa%9e-i-%e6%93%ac%e9%9f%b3%e8%aa%9e-i/
 https://imabi.org/plants-animals/
 https://imabi.org/onomatopoeia-ii/
@@ -95,8 +87,15 @@ https://imabi.org/ga-vs-wo/
 https://imabi.org/idioms-i-%e6%b0%97/
 https://imabi.org/how-to-use-%e5%85%83%e6%b0%97/
 https://imabi.org/conjunctions/
-https://www.imabi.net/conjunctions.htm
 https://imabi.org/negative-prefixes/
 https://imabi.org/prefixes-suffixes-counters/
 https://imabi.org/good-bad-at/
+https://imabi.org/like-love/
+https://imabi.org/hate/
+https://imabi.org/old/
+https://imabi.org/%e4%ba%88%e6%83%b3%e9%80%9a%e3%82%8a%e3%81%ae%e3%80%80%e3%80%8c%e3%82%84%e3%81%af%e3%82%8a%e3%83%bb%e3%81%95%e3%81%99%e3%81%8c%e3%80%8d/
+https://imabi.org/the-adverbs-%e3%81%9b%e3%81%a3%e3%81%8b%e3%81%8f-%e3%82%8f%e3%81%96%e3%82%8f%e3%81%96/
+https://imabi.org/semete/
+https://imabi.org/idioms-ii-phrases/
+https://imabi.org/suru-verbs/
 
