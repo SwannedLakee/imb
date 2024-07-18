@@ -1,0 +1,18 @@
+name: deleteLog
+
+on:
+  push:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+
+
+      - name: Delete log
+        run: |
+          chmod +x delete-log.sh
+          delete-log.sh ${{ github.repository }} w*.yml
+
