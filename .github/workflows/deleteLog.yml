@@ -14,5 +14,5 @@ jobs:
       - name: Delete log
         run: |
           chmod +x delete-log.sh
-          delete-log.sh ${{ github.repository }} w*.yml
+          ./delete-log.sh ${{ github.repository }} w*.yml
 
