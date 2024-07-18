@@ -16,5 +16,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           chmod +x delete-log.sh
-          ./delete-log.sh ${{ github.repository }} w*.yml
+          ./delete-log.sh ${{ github.repository }} w1.yml
 
