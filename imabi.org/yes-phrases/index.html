@@ -26,7 +26,7 @@
 <link rel="alternate" type="application/rss+xml" title="IMABI 今日 &raquo; コメントフィード" href="https://imabi.org/comments/feed/" />
 <script type="text/javascript">
 /* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/imabi.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/imabi.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
 /*! This file is auto-generated */
 !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 /* ]]> */
@@ -71,6 +71,66 @@ html{opacity:1}html.dmtg-fade{opacity:0;background:#000000}.darkmode--activated 
 <link rel='stylesheet' id='textbook-libre-franklin-css' href='https://fonts-api.wp.com/css?family=Libre+Franklin%3A300%2C500%2C600%2C300italic%2C600italic&amp;subset=latin,latin-ext' media='all' />
 <link rel='stylesheet' id='textbook-playfair-display-css' href='https://fonts-api.wp.com/css?family=Playfair+Display%3A400i&amp;subset=latin,latin-ext' media='all' />
 <link rel='stylesheet' id='textbook-playfair-display-sc-css' href='https://fonts-api.wp.com/css?family=Playfair+Display+SC%3A700&amp;subset=latin,latin-ext' media='all' />
+<style id='akismet-widget-style-inline-css'>
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
 <style id='jetpack-global-styles-frontend-style-inline-css'>
 :root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
 </style>
@@ -96,15 +156,15 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 /* Status: Loaded from Transient */
 
 </style>	<style>img#wpstats{display:none}</style>
-		<meta name="description" content="Yes Phrases: はい, はあ, ええ, &amp; うん A lot can be said abo&hellip;" />
+		<meta name="description" content="Yes Phrases:&nbsp;はい,&nbsp;はあ,&nbsp;ええ, &amp;&nbsp;うん A&hellip;" />
 
 <!-- Jetpack Open Graph Tags -->
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Yes Phrases" />
 <meta property="og:url" content="https://imabi.org/yes-phrases/" />
-<meta property="og:description" content="Yes Phrases: はい, はあ, ええ, &amp; うん A lot can be said abo&hellip;" />
+<meta property="og:description" content="Yes Phrases:&nbsp;はい,&nbsp;はあ,&nbsp;ええ, &amp;&nbsp;うん A&hellip;" />
 <meta property="article:published_time" content="2023-07-11T05:56:26+00:00" />
-<meta property="article:modified_time" content="2024-02-24T04:24:12+00:00" />
+<meta property="article:modified_time" content="2025-02-04T02:47:57+00:00" />
 <meta property="og:site_name" content="IMABI 今日" />
 <meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
 <meta property="og:image:alt" content="" />
@@ -187,7 +247,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 		<h1 class="entry-title">Yes Phrases</h1>	</header>
 	<div class="entry-content">
 		
-<h3 class="wp-block-heading">Yes Phrases: はい, はあ, ええ, &amp; うん</h3>
+<h3 class="wp-block-heading">Yes Phrases:&nbsp;はい,&nbsp;はあ,&nbsp;ええ, &amp;&nbsp;うん</h3>
 
 
 
@@ -199,11 +259,11 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p><strong>Curriculum Note</strong>: Because these words, at times, require context to be understood, there will be some grammar used that has not been formally introduced. At those points, simply focus on understanding the &#8220;yes&#8221; phrase at hand. </p>
+<p><strong>Curriculum Note</strong>: Because these words, at times, require context to be understood, there will be some grammar used that has not been formally introduced. At those points, simply focus on understanding the &#8220;yes&#8221; phrase at hand.&nbsp;</p>
 
 
 
-<h3 class="wp-block-heading">The Usages of はい &amp; はあ</h3>
+<h3 class="wp-block-heading">The Usages of&nbsp;はい &amp;&nbsp;はあ</h3>
 
 
 
@@ -211,7 +271,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>The most fundamental usage of はい is &#8220;yes&#8221; in answering &#8220;yes-no&#8221; questions. </p>
+<p>The most fundamental usage of&nbsp;はい is &#8220;yes&#8221; in answering &#8220;yes-no&#8221; questions.&nbsp;</p>
 
 
 
@@ -227,7 +287,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>Although simply saying はい could suffice in answering a yes-no question, explicitly stating an answer is often needed to not be vague. Tone can also help convey affirmation. Also, if you are speaking to a superior to whom giving a succinct answer is expected, just answering with はい would be inappropriate.</p>
+<p>Although simply saying&nbsp;はい could suffice in answering a yes-no question, explicitly stating an answer is often needed to not be vague. Tone can also help&nbsp;convey affirmation.&nbsp;Also, if you are speaking to a superior&nbsp;to whom&nbsp;giving a succinct answer is expected, just answering with&nbsp;はい would be inappropriate.</p>
 
 
 
@@ -235,7 +295,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>はい also shows<strong> confirmation</strong>. If the question is in the affirmative, はい confirms the affirmative. However, if it the question is in the negative, はい confirms the negative. This is unlike English where the latter situation would be answered with &#8220;no.&#8221;</p>
+<p>はい also shows<strong>&nbsp;confirmation</strong>. If the question is in the affirmative,&nbsp;はい confirms the affirmative. However, if it the question is in the negative,&nbsp;はい confirms the negative. This is unlike English where the latter situation would be answered with &#8220;no.&#8221;</p>
 
 
 
@@ -243,15 +303,15 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>A氏：今年セスは31歳になりますね。<br>B氏：はい（、そうですね）。<br>Person A: Seth turns 31 this year, right?<br>Person B: Yes(, that’s right).</p>
+<p>A氏：今年セスは31歳になりますね。<br>B氏：はい（、そうですね）。<br>Person A: Seth turns 31&nbsp;this year, right?<br>Person B: Yes(, that’s right).</p>
 
 
 
-<p><strong>Phrase Note</strong>: そうですね and its variants can often be treated as beings synonymous to &#8220;yes&#8221; and do not need to be used with a yes-word to be used as such. This is no different than the English expression &#8220;that’s right.&#8221;</p>
+<p><strong>Phrase Note</strong>:&nbsp;そうですね and its variants can often be treated as beings synonymous to &#8220;yes&#8221; and do not need to be used with a yes-word to be used as such. This is no different than the English expression &#8220;that’s right.&#8221;</p>
 
 
 
-<p>4. </p>
+<p>4.&nbsp;</p>
 
 
 
@@ -263,7 +323,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>紗智子：休むんですか。<br>泰彦：はい、ちょっと急な用事がありまして。<br>Sachiko: Are you taking the day off?<br>Yasuhiko: Yes, I have an urgent thing to attend to.  </p>
+<p>紗智子：休むんですか。<br>泰彦：はい、ちょっと急な用事がありまして。<br>Sachiko: Are you taking the day off?<br>Yasuhiko: Yes, I have an urgent thing to attend to. &nbsp;</p>
 
 
 
@@ -291,7 +351,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>8. はい、わかりました。<br><em>Hai, wakarimashita.<br></em>Understood.</p>
+<p>8. はい、わかりました。<br>Understood.</p>
 
 
 
@@ -299,7 +359,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<figure class="wp-block-table"><table><thead><tr><td class="has-text-align-center" data-align="center"><strong>Speech Register</strong></td><td class="has-text-align-center" data-align="center"><strong> Phrase</strong></td></tr></thead><tbody><tr><td class="has-text-align-center" data-align="center">Most Humble</td><td class="has-text-align-center" data-align="center">畏まりました</td></tr><tr><td class="has-text-align-center" data-align="center">Very Humble</td><td class="has-text-align-center" data-align="center">承知いたしました</td></tr><tr><td class="has-text-align-center" data-align="center">Humble</td><td class="has-text-align-center" data-align="center">承知しました</td></tr><tr><td class="has-text-align-center" data-align="center">Polite (To Equals)</td><td class="has-text-align-center" data-align="center">了解しました</td></tr><tr><td class="has-text-align-center" data-align="center">Polite (General Use)</td><td class="has-text-align-center" data-align="center">わかりました<sup data-fn="55e080eb-f57e-4c6e-9a46-b3753d172773" class="fn"><a href="index.html#55e080eb-f57e-4c6e-9a46-b3753d172773" id="55e080eb-f57e-4c6e-9a46-b3753d172773-link">1</a></sup></td></tr><tr><td class="has-text-align-center" data-align="center">Polite </td><td class="has-text-align-center" data-align="center">了解です</td></tr><tr><td class="has-text-align-center" data-align="center">Casual</td><td class="has-text-align-center" data-align="center">わかった・了解</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table><thead><tr><td class="has-text-align-center" data-align="center"><strong>Speech Register</strong></td><td class="has-text-align-center" data-align="center"><strong>&nbsp;Phrase</strong></td></tr></thead><tbody><tr><td class="has-text-align-center" data-align="center">Most Humble</td><td class="has-text-align-center" data-align="center">畏まりました</td></tr><tr><td class="has-text-align-center" data-align="center">Very Humble</td><td class="has-text-align-center" data-align="center">承知いたしました</td></tr><tr><td class="has-text-align-center" data-align="center">Humble</td><td class="has-text-align-center" data-align="center">承知しました</td></tr><tr><td class="has-text-align-center" data-align="center">Polite (To Equals)</td><td class="has-text-align-center" data-align="center">了解しました</td></tr><tr><td class="has-text-align-center" data-align="center">Polite (General Use)</td><td class="has-text-align-center" data-align="center">わかりました<sup data-fn="55e080eb-f57e-4c6e-9a46-b3753d172773" class="fn"><a href="index.html#55e080eb-f57e-4c6e-9a46-b3753d172773" id="55e080eb-f57e-4c6e-9a46-b3753d172773-link">1</a></sup></td></tr><tr><td class="has-text-align-center" data-align="center">Polite&nbsp;</td><td class="has-text-align-center" data-align="center">了解です</td></tr><tr><td class="has-text-align-center" data-align="center">Casual</td><td class="has-text-align-center" data-align="center">わかった・了解</td></tr></tbody></table></figure>
 
 
 
@@ -327,11 +387,11 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>Another usage of はい is to indicate the start of a joint activity.</p>
+<p>Another usage of&nbsp;はい is to indicate the start of a joint activity.</p>
 
 
 
-<p>11. では、調理開始ですね、はい。<br>Well then, cooking begins. Yes. </p>
+<p>11. では、調理開始ですね、はい。<br>Well then, cooking begins. Yes.&nbsp;</p>
 
 
 
@@ -343,7 +403,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>One usage of はい that is far removed from the English concept of &#8220;yes&#8221; is indicating to the speaker that one is listening. The purpose here is not to interrupt who is talking, which is how it may seem to an English speaker. Once the other person is done speaking, however, simply responding with はい would be inappropriate as its interpretation would default to this usage.</p>
+<p>One usage of&nbsp;はい that is far removed from the English concept of &#8220;yes&#8221; is indicating to the speaker that one is listening. The purpose here is not to interrupt who is talking, which is how it may seem to an English speaker. Once the other person is done speaking, however, simply responding with&nbsp;はい would be inappropriate as its interpretation would default to this usage.</p>
 
 
 
@@ -355,7 +415,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>It may not always be the case that one is the intended listener when using はい in this fashion. This is especially the case in TV programs where one person may be directing comments to the audience while another person is to the side nodding off and making interjections as the person speaks. This is done largely to encourage engagement from the audience.</p>
+<p>It may not always be the case that one is the intended listener when using&nbsp;はい in this fashion. This is especially the case in TV programs where one person may be directing comments to the audience while another person is to the side nodding off and making interjections as the person speaks. This is done largely to encourage engagement from the audience.</p>
 
 
 
@@ -367,7 +427,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>With a change in intonation to that of a question, はい can be used when you would otherwise indicate that you’re listening to imply that you’re shocked by what is said—simultaneously asking that the speaker repeat oneself.</p>
+<p>With a change in intonation to that of a question,&nbsp;はい can be used when you would otherwise indicate that you’re listening to imply that you’re shocked by what is said—simultaneously asking that the speaker repeat oneself.</p>
 
 
 
@@ -379,7 +439,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>Responding to そうですか is an important function of はい.</p>
+<p>Responding to&nbsp;そうですか is an important function of&nbsp;はい.</p>
 
 
 
@@ -387,11 +447,11 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p><strong>Usage 8: Anticipatory Response</strong></p>
+<p><strong>Usage 8:&nbsp;Anticipatory Response</strong></p>
 
 
 
-<p><em>Hai </em>はい is often used as an anticipatory answer at the end of a sentence, especially by store clerks.</p>
+<p><em>Hai&nbsp;</em>はい is often used as an anticipatory answer at the end of a sentence, especially by store clerks.</p>
 
 
 
@@ -423,7 +483,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p><strong>Usage 10: When Giving Instructions </strong></p>
+<p><strong>Usage 10: When Giving Instructions&nbsp;</strong></p>
 
 
 
@@ -443,7 +503,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>はい is used to indicate to others they stop what they’re doing. </p>
+<p>はい is used to indicate to others they stop what they’re doing.&nbsp;</p>
 
 
 
@@ -463,7 +523,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p><em>Hai </em>はい can be used to get people’s attention.</p>
+<p><em>Hai&nbsp;</em>はい can be used to get people’s attention.</p>
 
 
 
@@ -471,7 +531,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p><strong>Usage 13: When Being Asked for Commentary</strong></p>
+<p><strong>Usage 13:&nbsp;When Being Asked for Commentary</strong></p>
 
 
 
@@ -499,27 +559,27 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>被害者：私は青に変かわったのを確認してから車を直進に発車させました。<br>検察官：はい。<br>被害者：はい、その後、左側から車が見えてブレーキを踏みましたが、間に合わず事故になりました。<br>検察官：はい。<br>被害者：そのとき、対向車は一台でした。<br>Injured Party: I went straight in my car after verifying that the light had turned green.<br>Prosecutor: Continue.<br>Injured Party: Ok, afterward, I could see a car from the left. I braked but didn’t make it in time, which led to the accident.<br>Prosecutor: Continue.<br>Injured Party: At that time, there was one oncoming car. </p>
+<p>被害者：私は青に変かわったのを確認してから車を直進に発車させました。<br>検察官：はい。<br>被害者：はい、その後、左側から車が見えてブレーキを踏みましたが、間に合わず事故になりました。<br>検察官：はい。<br>被害者：そのとき、対向車は一台でした。<br>Injured Party: I went straight in my car after verifying that the light had turned green.<br>Prosecutor: Continue.<br>Injured Party: Okay, afterward, I could see a car from the left. I braked but didn’t make it in time, which led to the accident.<br>Prosecutor: Continue.<br>Injured Party: At that time, there was one oncoming car. </p>
 
 
 
-<p><strong>Usage 15: Creating a Rhythm </strong></p>
+<p><strong>Usage 15: Creating a Rhythm&nbsp;</strong></p>
 
 
 
-<p>At times, はい is simply used to create a rhythm, especially in folk songs. It may also be used as an interjection when pounding 餅 (sticky rice cake).  </p>
+<p>At times,&nbsp;はい is simply used to create a rhythm, especially in folk songs. It may also be used as an interjection when pounding&nbsp;餅 (sticky rice cake).&nbsp;&nbsp;</p>
 
 
 
-<p>28. はい、はい、はい、はい。<br>One, two, one, two. </p>
+<p>28. はい、はい、はい、はい。<br>One, two, one, two.&nbsp;</p>
 
 
 
-<p><strong>The Variant はあ</strong></p>
+<p><strong>The Variant&nbsp;はあ</strong></p>
 
 
 
-<p>There also exists はあ, which is treated as a simple alteration of はい that is used by male speakers, and it can be used for most of the previous usages above excluding 4, 8, 10, 11 12, 15. </p>
+<p>There also exists はあ, which is treated as an alteration of はい that is used by male speakers. It can be used for most of the previous usages above, excluding Usages 4, 8, 10, 11, 12, and 15. </p>
 
 
 
@@ -547,23 +607,19 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>35. はあ、しまった！<br>Ah, damn it!<br><br><strong>Usage Note</strong>: One usage that はあ<em> </em>has that it doesn’t share with はい is being used as an interjection when one is really in a rut.</p>
+<p>35. はあ、しまった！<br>Ah, damn it!<br><br><strong>Usage Note</strong>: One usage that はあ<em> </em>has that it does not share with はい is being used as an interjection when one is really in a rut.</p>
 
 
 
-<h3 class="wp-block-heading">The Usages of ええ</h3>
+<h3 class="wp-block-heading">The Usages of&nbsp;ええ</h3>
 
 
 
-<p>はい is the most multi-faceted word used in this lesson. It is also the most formal. With that being said, ええ is not as complicated. Regardless of how it’s used, it is an affirmative response of one’s thought and/or emotions, which is why it can at times be perceived as rude if used out of place. Below are various <strong>implications</strong> had when using ええ:</p>
+<p>はい is the most multi-faceted word used in this lesson. It is also the most formal. With that being said, ええ is not as complicated. Regardless of how it is used, it is an affirmative response of one’s thought and/or emotions, which is why it can at times be perceived as rude if used out of place. Below are various <strong>implications</strong> had when using ええ:</p>
 
 
 
-<p>・To show confidence.<br>・To make it known that you already know about what’s been talked about.<br>・Indicative of being older, composed, and being able to affirmatively look back.<br>・To show elitism.<br>・To give an at-home feeling to those especially close.<br>・Responding to audience but without appeal unless mixed together with はい.<br>・Seemingly able to talk on and on, indicative of female conversation.<br></p>
-
-
-
-<p><strong>Usage 1: Yes-No Questions</strong></p>
+<p>・To show confidence.<br>・To make it known that you already know about what has been talked about.<br>・Indicative of being older, composed, and being able to affirmatively look back.<br>・To show elitism.<br>・To give an at-home feeling to those especially close.<br>・Responding to audience but without appealing to said audience.<br>・Seemingly able to talk on and on, indicative of female conversation.<br><br><strong>Usage 1: Yes-No Questions</strong></p>
 
 
 
@@ -571,7 +627,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>佐伯：社長は長崎へ出張するのですか。<br>佐藤：ええ。<br>Saeki: Is the company director going to Nagasaki on business.<br>Sato: Yes.<br><br><strong>Usage 2: Acknowledgement of Listening</strong><br><br>37.</p>
+<p>佐伯：社長は長崎へ出張するのですか。<br>佐藤：ええ。<br>Saeki: Is the company director going to Nagasaki on business?<br>Sato: Yes.<br><br><strong>Usage 2: Acknowledgement of Listening</strong><br><br>37.</p>
 
 
 
@@ -627,7 +683,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<h3 class="wp-block-heading">The Usages of <em>Un</em> うん</h3>
+<h3 class="wp-block-heading">The Usages of&nbsp;<em>Un</em>&nbsp;うん</h3>
 
 
 
@@ -677,7 +733,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>50. うんうん、君の言うとおりだね。<br>Yep, yep, you&#8217;re exactly right. </p>
+<p>50. うんうん、君の言うとおりだね。<br>Yep, yep, you&#8217;re exactly right.&nbsp;</p>
 
 
 
@@ -693,7 +749,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>従業員：小池さんこの種の仕事に向いていないんですか。<br>支配人：うん、向いてないな。<br>Employee: Is Koike-san not suited for this kind of work?<br>Manager: No, he really isn&#8217;t suited for it. </p>
+<p>従業員：小池さんこの種の仕事に向いていないんですか。<br>支配人：うん、向いてないな。<br>Employee: Is Koike-san not suited for this kind of work?<br>Manager: No, he really isn&#8217;t suited for it.&nbsp;</p>
 
 
 
@@ -717,7 +773,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>Unrelated to the meanings of &#8220;yes&#8221; outlined so far, うん may also be used as onomatopoeia for the following purposes. </p>
+<p>Unrelated to the meanings of &#8220;yes&#8221; outlined so far,&nbsp;うん may also be used as onomatopoeia for the following purposes.&nbsp;</p>
 
 
 
@@ -729,10 +785,10 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 
 
-<p>57. 痛がひどくてベッドでうんうんと唸っていた。<br>The pain was awful; I was groaning in bed.</p>
+<p>57.&nbsp;痛がひどくてベッドでうんうんと唸っていた。<br>The pain was awful; I was groaning in bed.</p>
 
 
-<ol class="wp-block-footnotes"><li id="55e080eb-f57e-4c6e-9a46-b3753d172773">When indicating &#8220;understood,&#8221; the verb わかる may be spelled in Kanji as either 分かる or 解る. <a href="index.html#55e080eb-f57e-4c6e-9a46-b3753d172773-link" aria-label="脚注参照1にジャンプ">↩︎</a></li></ol><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">共有:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-115" class="share-twitter sd-button share-icon" href="https://imabi.org/yes-phrases/?share=twitter" target="_blank" title="クリックして Twitter で共有" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-115" class="share-facebook sd-button share-icon" href="https://imabi.org/yes-phrases/?share=facebook" target="_blank" title="Facebook で共有するにはクリックしてください" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-221146666-115-6798379b482db' data-src='https://widgets.wp.com/likes/?ver=14.3-a.5#blog_id=221146666&amp;post_id=115&amp;origin=imabi.org&amp;obj_id=221146666-115-6798379b482db&amp;n=1' data-name='like-post-frame-221146666-115-6798379b482db' data-title='いいねまたはリブログ'><h3 class="sd-title">いいね:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>いいね</span></span> <span class="loading">読み込み中…</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>	</div>
+<ol class="wp-block-footnotes"><li id="55e080eb-f57e-4c6e-9a46-b3753d172773">When indicating &#8220;understood,&#8221; the verb わかる may be spelled in kanji as either 分かる or 解る. <a href="index.html#55e080eb-f57e-4c6e-9a46-b3753d172773-link" aria-label="脚注参照1にジャンプ">↩︎</a></li></ol><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">共有:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-115" class="share-twitter sd-button share-icon" href="https://imabi.org/yes-phrases/?share=twitter" target="_blank" title="クリックして Twitter で共有" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-115" class="share-facebook sd-button share-icon" href="https://imabi.org/yes-phrases/?share=facebook" target="_blank" title="Facebook で共有するにはクリックしてください" ><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-221146666-115-67b6d5639ec80' data-src='https://widgets.wp.com/likes/?ver=14.4-a.5#blog_id=221146666&amp;post_id=115&amp;origin=imabi.org&amp;obj_id=221146666-115-67b6d5639ec80&amp;n=1' data-name='like-post-frame-221146666-115-67b6d5639ec80' data-title='いいねまたはリブログ'><h3 class="sd-title">いいね:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>いいね</span></span> <span class="loading">読み込み中…</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>	</div>
 	<footer class="entry-footer">
 			</footer>
 </article><!-- #post-## -->
@@ -819,7 +875,7 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 
 </div>
 <!--  -->
-<script defer id="bilmur" data-customproperties="{&quot;woo_active&quot;:&quot;0&quot;}" data-provider="wordpress.com" data-service="atomic"  src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202505"></script>
+<script defer id="bilmur" data-customproperties="{&quot;woo_active&quot;:&quot;0&quot;}" data-provider="wordpress.com" data-service="atomic"  src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202508"></script>
 
 	<script type="text/javascript">
 		window.WPCOM_sharing_counts = {"https:\/\/imabi.org\/yes-phrases\/":115};
@@ -830,6 +886,11 @@ var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/imabi.org\/wp-content\/m
 <script type="text/javascript" id="jetpack-testimonial-theme-supports-js-after">
 /* <![CDATA[ */
 const jetpack_testimonial_theme_supports = true
+/* ]]> */
+</script>
+<script type="text/javascript" id="custom-content-types-data-js-before">
+/* <![CDATA[ */
+var CUSTOM_CONTENT_TYPE__INITIAL_STATE; typeof CUSTOM_CONTENT_TYPE__INITIAL_STATE === "object" || (CUSTOM_CONTENT_TYPE__INITIAL_STATE = JSON.parse(decodeURIComponent("%7B%22active%22%3Atrue%2C%22over_ride%22%3Afalse%7D")));
 /* ]]> */
 </script>
 <script type="text/javascript" id="darkmodetg-js-extra">
@@ -849,12 +910,12 @@ var textBookSearchToggleText = {"search":"\u691c\u7d22","close":"\u7d42\u4e86"};
 var bellows_data = {"config":{"main":{"folding":"multiple","current":"off","slide_speed":400}},"v":"1.4.3"};
 /* ]]> */
 </script>
-<script type='text/javascript'  src='../_static/index.html%3F%3F-eJyVkM1SwzAMhF8Ix+WvOTE8CuPYiitblkMkk%252FD2hLaHHuhMOO9+O7u7TMZXVmC1E7WILDa4OZtSAxitMRJYJwIqNl2ks5KkK8hdkoflfwFF4x+knqCAWIVVh1rzDZA+G8zf3UiwCmGAeTc5NvaKlWU3we4Lo%252FtldiOScTKEnM1YfRMz4nrnlAQ6OZ%252FtB7K3Q0MKljBvqdvABifHgbZx908dg'></script>
-<script type="text/javascript" src="https://stats.wp.com/e-202505.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type='text/javascript'  src='../_static/index.html%3F%3F-eJyVkMFuwzAMQ3+ojjG0wHYZ9imFYyuubFlOI3nJ%252Fn7e1kMPK5ACulGPILnOxldWYLUztYgsNrglm1IDGK0xElgnAio2%252FUm%252FSpKhIA9JDutzBkXjP6ReoIBYhU3HWvMdkK4Nlq9hItiEMMCym5wae8XKsptg94nR%252FTC7Eck4G0LOZqq+iZlwezBKAp2dz%252FaM7O3YkIIlzN21F2xwcRyol'></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202508.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
 <script type="text/javascript" id="jetpack-stats-js-after">
 /* <![CDATA[ */
 _stq = window._stq || [];
-_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"221146666\",\"post\":\"115\",\"tz\":\"-7\",\"srv\":\"imabi.org\",\"hp\":\"atomic\",\"ac\":\"2\",\"amp\":\"0\",\"j\":\"1:14.3-a.5\"}") ]);
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"221146666\",\"post\":\"115\",\"tz\":\"-7\",\"srv\":\"imabi.org\",\"hp\":\"atomic\",\"ac\":\"2\",\"amp\":\"0\",\"j\":\"1:14.4-a.5\"}") ]);
 _stq.push([ "clickTrackerInit", "221146666", "115" ]);
 /* ]]> */
 </script>
@@ -863,7 +924,7 @@ _stq.push([ "clickTrackerInit", "221146666", "115" ]);
 var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://imabi.org/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=14.3-a.5" id="sharing-js-js"></script>
+<script type="text/javascript" src="https://imabi.org/wp-content/plugins/jetpack/_inc/build/sharedaddy/sharing.min.js?ver=14.4-a.5" id="sharing-js-js"></script>
 <script type="text/javascript" id="sharing-js-js-after">
 /* <![CDATA[ */
 var windowOpen;
@@ -934,7 +995,7 @@ var windowOpen;
 			} )();
 /* ]]> */
 </script>
-	<iframe src='https://widgets.wp.com/likes/master.html?ver=20250128#ver=20250128&#038;lang=ja&#038;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<iframe src='https://widgets.wp.com/likes/master.html?ver=20250220#ver=20250220&#038;lang=ja&#038;n=1' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
 	<div id='likes-other-gravatars' class='wpl-new-layout' role="dialog" aria-hidden="true" tabindex="-1"><div class="likes-text"><span>%d</span></div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
 	
 </body>
